@@ -52,30 +52,16 @@ function Footer() {
 
         {/* Social Media and Contact Section */}
         <div className="w-full md:w-1/3 mb-6 text-center md:text-left">
-          <h3 className="text-2xl font-bold">Follow Us on GitHub</h3>
+          <h3 className="text-2xl font-bold mt-11">Follow Us on GitHub</h3>
           <div className="flex justify-center md:justify-start mt-4">
             <a
               href="https://github.com/OkenHaha/react-blog"
               aria-label="Follow us on GitHub"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:scale-110 transition-transform duration-300 mx-2"
+              className="hover:scale-110 transition-transform duration-300 mx-6 "
             >
               <img src={github} alt="GitHub" className="w-8 h-8" />
-            </a>
-          </div>
-
-          {/* Contact Section */}
-          <div className="mt-6">
-            <h3 className="text-xl font-bold">Contact Us</h3>
-            <p className="text-lg mt-2 opacity-80">
-              Have questions? Reach out to us via email:
-            </p>
-            <a
-              href="mailto:support@reactblog.com"
-              className="text-lg text-yellow-300 hover:text-yellow-400 dark:text-yellow-400 dark:hover:text-yellow-500"
-            >
-              support@reactblog.com
             </a>
           </div>
         </div>
